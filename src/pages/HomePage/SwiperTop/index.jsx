@@ -19,7 +19,6 @@ function SwiperAdd() {
        autoplay = {true} delay={1000} 
        spaceBetween={50}
        slidesPerView={1}
-       
        pagination={{ clickable: true }}
     >
       <SwiperSlide><img src={Rectangle} alt=""/></SwiperSlide>

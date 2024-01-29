@@ -1,8 +1,9 @@
 .homePage{
     width: 1170px;
-    height: 2000px;
+    height: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 70px 0px 0px;
 }

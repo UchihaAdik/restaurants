@@ -37,6 +37,7 @@
         }
     }
     .header__right{
+        padding-right: 35px;
         width: 100%;
         margin-left: 25px;
         display: flex;
@@ -61,14 +62,6 @@
                     color: #FF9846;
                 }
             }
-
-        }
-        .header__right__img{
-            margin-left: 35px;
-            margin-right: 35px;
-            width: 30px;
-            height: 30px;
-            
         }
     }
 }

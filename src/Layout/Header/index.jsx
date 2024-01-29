@@ -2,6 +2,7 @@ import React from 'react'
 import "./style.scss"
 import time from "../../assets/icon/Часы.png"
 import Search from "../../assets/icon/Search_ico.png"
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
@@ -22,11 +23,8 @@ function Header() {
               <h3>Бишкек</h3>
             </div>
             <div className='header__right__link'>
-                <a href="#">Отзывы</a>
-                <a href="#">Доставка и оплата</a>
-                <div className='header__right__img'>
-                  <img src={Search} alt="" />
-                </div>
+                <Link to="/pagereviews">Отзывы</Link>
+                <Link to="/ordercheckout">Доставка и оплата</Link>
             </div>
         </div>
     </header>

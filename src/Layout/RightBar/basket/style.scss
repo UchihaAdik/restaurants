@@ -1,0 +1,51 @@
+.basket__Allconteiner{
+    .basket__AllBorromConteiner{
+        min-height: 85vh;
+
+        .basket{
+            width: 290px;
+            display: flex;
+            margin: 15px 0px;
+        
+            .basket__conteiner_img{
+                width: 70px;
+                height: 50px;
+                .basket_img{
+                    height: 100%;
+                }
+        
+            }
+            .basket__conteiner-title-price{
+                margin-left: 25px;
+                p{
+                    font-size: 17px;
+                }
+                .basket__conteiner-title-button{
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+    }
+    .Basket_bootom_coneiner{
+        display: flex;
+        align-items: center;
+        .Basket_bootom_coneiner_count{
+            font-size: 24px;
+            font-weight: 700px;
+        }
+        .Basket_bootom_coneiner_btn{
+            border-radius: 5px;
+            background-color: #F46D40;
+            color: rgb(255, 255, 255);
+            display: block;
+            padding: 8px 30px;
+            font-weight: 400;
+            font-size: 18px;
+            margin-left: 10px;
+        }
+    }
+    
+}
+
+

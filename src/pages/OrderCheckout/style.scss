@@ -1,0 +1,146 @@
+.OrderCheckout{
+    max-width: 760px;
+    margin: auto;
+    margin-top: 50px;
+    .OrderCheckout_title{
+        margin: 20px 0px;
+        display: block;
+    }
+    .OrderCheckout_form{
+        display: flex;
+        justify-content: space-between;
+        .OrderCheckout__leftConeiner{
+            width: 360px;
+            
+            input{
+                width: 170px;
+                height: 40px;
+                border-radius: 5px;
+                border: none;
+                background-color: #ffffff;
+                padding-left: 10px;
+            }
+            .OrderCheckout_number{
+                margin-right: 20px;
+            }
+            .OrderCheckout__radioConteiner{
+                border-radius: 50px, 0px, 0px, 5px;
+                display: flex;
+                input{
+                    border-radius: 50px, 0px, 0px, 5px;
+                }
+                p{
+                    display: block;
+                    margin-top: 5px;
+                    margin-left: 5px;
+                }
+                .OrderCheckout__radioConteiner_card{
+                    display: block;
+                    width: 180px;
+                    height: 40px;
+                    background-color: #ffffff;
+                    border-radius: 50px, 0px, 0px, 5px;
+                    margin-top: 20px;
+                    cursor: pointer;
+                    
+                }
+                .selected{
+                    background-color: #FF9846;
+                    color: #ffffff;
+                    
+                }
+                input[type="radio"] {
+                    display: none; 
+                  }
+            }
+            .OrderCheckout__changeConteiner{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+                align-items: center;
+                p{
+                    display: block;
+                }
+            }
+            .OrderCheckout__commentsOrder{
+                width: 360px;
+                margin-top: 20px;
+            }
+            
+        }
+    }
+    
+    .OrderCheckout_btn{
+        width: 100%;
+        background-color: #F46D40;
+        color: #ffffff;
+        height: 45px;
+        font-size: 18px;
+        font-weight: 500;
+        border: none;
+        border-radius: 10px;
+        margin-top: 25px;
+    }
+    .OrderCheckout__rightConeiner{
+        width: 360px;
+        height: 200px;
+        input{
+            border-radius: 5px;
+            border: none;
+            padding-left: 10px;
+            height: 40px;
+        }
+        .OrderCheckout__radioConteiner{
+            display: flex;
+            .OrderCheckout__radioConteiner_Bycourier{
+                display: block;
+                width: 180px;
+                height: 40px;
+                background-color: #ffffff;
+                border-radius: 50px, 0px, 0px, 5px;
+                cursor: pointer;
+                
+            }
+            .selected{
+                background-color: #FF9846;
+                color: #ffffff;
+                
+            }
+            input[type="radio"] {
+                display: none; 
+              }
+        }
+        
+    }.OrderCheckout__input_strit-dom{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        .OrderCheckout__input_strit{
+            width: 260px;
+            height: 40px;
+        }
+        .OrderCheckout__input_dom{
+            height: 40px;
+            width: 80px;
+        }
+    }
+    .OrderCheckout__input_kv-pod{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        .OrderCheckout__input_kv{
+            height: 40px;
+            width: 80px;
+        }
+        
+    }
+    .OrderCheckout__input_email{
+        width: 355px;
+    }
+    .OrderCheckout__bottomTitle{
+        text-align: center;
+        margin-top: 10px;
+    }
+   
+}

@@ -1,5 +1,51 @@
 .swiperNew{
-    width: 1170px;
-    height: 450px;
-    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 50px;
+    max-width: 1070px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    .swiperNew__container{
+        width: 950px;
+        background-color: aqua;
+
+        
+    }
+    .swiperNew__containerCard{
+        text-align: center;
+        height: 272px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .swiperNew__containerCardImg{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            display: flex;
+            border-radius: 50%;
+            
+            img{
+                width: 100%;
+                object-fit: cover;
+                border-radius: 100%;
+            }
+            
+        }
+        .swiperNew__container_title{
+            width: 200px;
+            text-align: center;
+            color: black;
+        }
+        .swiperNew__container_title_price{
+            font-size: 24px;
+            font-weight: 700;
+            color: black;
+        }
+    }
+    
+   
+
 }
+
